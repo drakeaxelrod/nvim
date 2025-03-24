@@ -1,0 +1,80 @@
+# ───────────────────────────
+# 📜 Normalize Line Endings
+# ───────────────────────────
+*.lua        text eol=lf
+*.vim        text eol=lf
+*.sh         text eol=lf
+*.md         text eol=lf
+*.txt        text eol=lf
+*.json       text eol=lf
+*.toml       text eol=lf
+*.yml        text eol=lf
+*.yaml       text eol=lf
+*.cfg        text eol=lf
+*.conf       text eol=lf
+
+# Windows Batch & Powershell scripts
+*.bat        text eol=crlf
+*.cmd        text eol=crlf
+*.ps1        text eol=crlf
+
+# ───────────────────────────
+# 🔍 Diff & Merge Settings
+# ───────────────────────────
+*.lua        diff=lua
+*.vim        diff=vim
+*.json       diff=json
+*.yml        diff=yaml
+*.yaml       diff=yaml
+*.md         diff=markdown
+*.sh         diff=sh
+*.toml       diff=toml
+
+# ───────────────────────────
+# 🎭 Binary Files (No Diff)
+# ───────────────────────────
+*.png        binary
+*.jpg        binary
+*.jpeg       binary
+*.gif        binary
+*.ico        binary
+*.pdf        binary
+*.ttf        binary
+*.otf        binary
+*.woff       binary
+*.woff2      binary
+*.eot        binary
+*.svg        binary
+*.zip        binary
+*.tar.gz     binary
+*.tar.xz     binary
+*.7z         binary
+*.exe        binary
+*.dll        binary
+*.so         binary
+*.dylib      binary
+*.out        binary
+*.app        binary
+*.class      binary
+*.wasm       binary
+
+# ───────────────────────────
+# 🔄 Git Attributes for Performance
+# ───────────────────────────
+*.lua        linguist-language=Lua
+*.vim        linguist-language=Vim script
+*.json       linguist-language=JSON
+*.sh         linguist-language=Shell
+*.md         linguist-language=Markdown
+*.toml       linguist-language=TOML
+*.yml        linguist-language=YAML
+*.yaml       linguist-language=YAML
+
+# ───────────────────────────
+# 🚀 Ensure Executables Retain Permissions
+# ───────────────────────────
+*.sh         text eol=lf
+*.py         text eol=lf
+*.lua        text eol=lf
+*.pl         text eol=lf
+*.rb         text eol=lf

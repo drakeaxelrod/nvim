@@ -1,0 +1,10 @@
+{
+  "Lua.diagnostics.globals": ["vim"],
+  "Lua.diagnostics.disable": ["lowercase-global", "undefined-field"],
+  "Lua.hint.enable": true,
+  "Lua.hint.setType": true,
+  "Lua.runtime.version": "LuaJIT",
+  "Lua.runtime.path": ["lua/?.lua", "lua/?/init.lua"],
+  "Lua.workspace.checkThirdParty": false,
+  "Lua.workspace.library": ["$VIMRUNTIME", "${3rd}/luv/library", "./"]
+}

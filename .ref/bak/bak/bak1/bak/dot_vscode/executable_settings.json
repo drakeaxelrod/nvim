@@ -1,0 +1,7 @@
+{
+  "Lua.diagnostics.globals": ["vim"],
+  "material-icon-theme.folders.associations": {
+    "keymaps": "keys",
+    "options": "config"
+  }
+}
